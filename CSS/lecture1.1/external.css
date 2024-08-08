@@ -1,0 +1,25 @@
+h1{
+    background-color: hotpink;
+    width: 1000px;
+    text-align: end;
+}
+p{
+    color:green
+    
+}
+#article1{
+    color:blue;
+}
+#abc{
+    color:aqua
+}
+.xyz{
+    background-color: plum;
+}
+h1,article{
+    width: 100px
+}
+p.we{
+    background-color: brown;
+}
+/*comment*/
