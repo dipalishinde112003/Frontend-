@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    
+}
+.items{max-width: 95vw;
+    max-height: 95vh;
+            /* background-color: antiquewhite; */
+            display: grid;
+            padding: 4rem;
+            row-gap: 23rem;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: 100px 100px 100px;
+            column-gap: 15rem;
+            
+        }
+        
+        .space{
+            text-align: center;
+            background-color: rgb(152, 128, 128);
+        }
+        .textt{
+            width: 280px;
+        }
+        .myitem img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 10px; /* Optional: adds a slight rounding to the images */
+        }
+        .myitem img:hover {
+            transform: scale(1.1); /* Scales the image to 110% of its original size */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a shadow to give a "pop out" effect */
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .items {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+            }
+
+            .textt h3 {
+                font-size: 1rem;
+            }
+
+            .textt p {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .textt h3 {
+                font-size: 0.9rem;
+            }
+
+            .textt p {
+                font-size: 0.75rem;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="space">
+        <h2>Diplo Blog</h2>
+        <p>This is space to create and read wonderful Blogs by own for yourself and for others...</p>
+    </div>
+    <div class="container">
+       
+        <div class="items">
+            <div class="myitem">
+                <img src="4.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+
+            <div class="myitem">
+                <img src="5.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+
+            <div class="myitem">
+                <img src="6.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+
+            <div class="myitem">
+                <img src="7.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+
+            <div class="myitem">
+                <img src="4.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+
+            <div class="myitem">
+                <img src="7.jpeg" alt="Image" height="300px" width="300px">
+                <div class="textt"><h3>Friends Makes Life Easier</h3>
+                    <p>Check this block to reveal the happiness of life </p></div>
+                <a href="">Amy</a>
+            </div>
+            
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
